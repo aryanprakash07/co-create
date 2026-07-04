@@ -6,9 +6,6 @@ import { WebSocket, WebSocketServer } from "ws";
 import { createServer as createViteServer } from "vite";
 import { Job, Portfolio, Room, Stroke, CanvasVersion, ChatMessage, RoomUser } from "./src/types.js";
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-
 // In-memory Databases
 const rooms: Map<string, Room> = new Map();
 let jobs: Job[] = [];
