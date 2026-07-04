@@ -1,0 +1,6 @@
+{
+  "name": "CoCreate Art Network",
+  "description": "A real-time collaborative art platform with shared digital canvases, live voice chat, canvas version history, portfolio showcases, and a professional job & freelance board for artists.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
